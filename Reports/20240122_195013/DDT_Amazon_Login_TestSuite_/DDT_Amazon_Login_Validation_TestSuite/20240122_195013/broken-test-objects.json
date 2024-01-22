@@ -8,7 +8,7 @@
       "proposedLocator": "//div/div/div/div/input",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon_OR/Page_Amazon Sign-In/input_email_position.png"
+      "pathToScreenshot": "Reports/20240122_195013/DDT_Amazon_Login_TestSuite_/DDT_Amazon_Login_Validation_TestSuite/20240122_195013/Object Repository/Amazon_OR/Page_Amazon Sign-In/input_email_position.png"
     }
   ]
 }
