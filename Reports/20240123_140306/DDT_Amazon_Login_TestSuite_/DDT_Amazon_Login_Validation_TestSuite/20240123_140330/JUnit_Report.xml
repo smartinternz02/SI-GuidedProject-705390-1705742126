@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DDT_Amazon_Login_Validation_TestSuite" time="88.391" tests="2" failures="0" errors="0">
+   <testsuite name="DDT_Amazon_Login_Validation_TestSuite" tests="2" failures="0" errors="0" time="88.391" skipped="0" timestamp="23-01-2024T14:09:06" hostname="abc - DESKTOP-4E801K4" id="Test Suites/DDT_Amazon_Login_TestSuite_/DDT_Amazon_Login_Validation_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\abc\\git\\SI-GuidedProject-705390-1705742126\\Reports\\20240123_140306\\DDT_Amazon_Login_TestSuite_\\DDT_Amazon_Login_Validation_TestSuite\\20240123_140330"/>
+         <property name="logFiles" value="C:\\Users\\abc\\git\\SI-GuidedProject-705390-1705742126\\Reports\\20240123_140306\\DDT_Amazon_Login_TestSuite_\\DDT_Amazon_Login_Validation_TestSuite\\20240123_140330\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="abc - DESKTOP-4E801K4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="33aa674eb89647d7cca010ed9f4b28de"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Data Driven Testing/TC_Amazon_Validation_Login_Excel" time="55.747" classname="Test Cases/Data Driven Testing/TC_Amazon_Validation_Login_Excel" status="PASSED">
+         <system-out><![CDATA[23-01-2024T14:09:06 - [TEST_CASE][PASSED] - Test Cases/Data Driven Testing/TC_Amazon_Validation_Login_Excel: Test Cases/Data Driven Testing/TC_Amazon_Validation_Login_Excel
+
+23-01-2024T14:09:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-01-2024T14:09:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-01-2024T14:09:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-01-2024T14:09:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-01-2024T14:09:16 - [TEST_STEP][PASSED] - navigateToUrl("www.amazon.com"): Navigate to 'http://www.amazon.com' successfully
+
+23-01-2024T14:09:19 - [MESSAGE][PASSED] - Navigate to 'http://www.amazon.com' successfully
+
+23-01-2024T14:09:19 - [TEST_STEP][PASSED] - click(findTestObject("Amazon_OR/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists")): Object: 'Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists' is clicked on
+
+23-01-2024T14:09:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists' is clicked on
+
+23-01-2024T14:09:53 - [TEST_STEP][PASSED] - setText(findTestObject("Amazon_OR/Page_Amazon Sign-In/input_email"), Email): Text 'jaiswalvaishali2020@gmail.com' is set on object 'Object Repository/Amazon_OR/Page_Amazon Sign-In/input_email'
+
+23-01-2024T14:09:56 - [MESSAGE][PASSED] - Text 'jaiswalvaishali2020@gmail.com' is set on object 'Object Repository/Amazon_OR/Page_Amazon Sign-In/input_email'
+
+23-01-2024T14:09:56 - [TEST_STEP][PASSED] - click(findTestObject("Amazon_OR/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/Amazon_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+23-01-2024T14:09:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+23-01-2024T14:09:59 - [TEST_STEP][PASSED] - setText(findTestObject("Amazon_OR/Page_Amazon Sign-In/input_password"), Password): Text 'Women@00' is set on object 'Object Repository/Amazon_OR/Page_Amazon Sign-In/input_password'
+
+23-01-2024T14:10:00 - [MESSAGE][PASSED] - Text 'Women@00' is set on object 'Object Repository/Amazon_OR/Page_Amazon Sign-In/input_password'
+
+23-01-2024T14:10:00 - [TEST_STEP][PASSED] - click(findTestObject("Amazon_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/Amazon_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+23-01-2024T14:10:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+23-01-2024T14:10:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-01-2024T14:10:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Driven Testing/TC_Amazon_Validation_Login_Excel" time="32.016" classname="Test Cases/Data Driven Testing/TC_Amazon_Validation_Login_Excel" status="PASSED">
+         <system-out><![CDATA[23-01-2024T14:10:02 - [TEST_CASE][PASSED] - Test Cases/Data Driven Testing/TC_Amazon_Validation_Login_Excel: Test Cases/Data Driven Testing/TC_Amazon_Validation_Login_Excel
+
+23-01-2024T14:10:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-01-2024T14:10:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-01-2024T14:10:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-01-2024T14:10:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-01-2024T14:10:05 - [TEST_STEP][PASSED] - navigateToUrl("www.amazon.com"): Navigate to 'http://www.amazon.com' successfully
+
+23-01-2024T14:10:06 - [MESSAGE][PASSED] - Navigate to 'http://www.amazon.com' successfully
+
+23-01-2024T14:10:06 - [TEST_STEP][PASSED] - click(findTestObject("Amazon_OR/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists")): Object: 'Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists' is clicked on
+
+23-01-2024T14:10:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists' is clicked on
+
+23-01-2024T14:10:26 - [TEST_STEP][PASSED] - setText(findTestObject("Amazon_OR/Page_Amazon Sign-In/input_email"), Email): Text 'jaiswalpratham2002@gmail.com' is set on object 'Object Repository/Amazon_OR/Page_Amazon Sign-In/input_email'
+
+23-01-2024T14:10:27 - [MESSAGE][PASSED] - Text 'jaiswalpratham2002@gmail.com' is set on object 'Object Repository/Amazon_OR/Page_Amazon Sign-In/input_email'
+
+23-01-2024T14:10:27 - [TEST_STEP][PASSED] - click(findTestObject("Amazon_OR/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/Amazon_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+23-01-2024T14:10:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+23-01-2024T14:10:32 - [TEST_STEP][PASSED] - setText(findTestObject("Amazon_OR/Page_Amazon Sign-In/input_password"), Password): Text 'Amazon@123' is set on object 'Object Repository/Amazon_OR/Page_Amazon Sign-In/input_password'
+
+23-01-2024T14:10:33 - [MESSAGE][PASSED] - Text 'Amazon@123' is set on object 'Object Repository/Amazon_OR/Page_Amazon Sign-In/input_password'
+
+23-01-2024T14:10:33 - [TEST_STEP][PASSED] - click(findTestObject("Amazon_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/Amazon_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+23-01-2024T14:10:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+23-01-2024T14:10:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-01-2024T14:10:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[23-01-2024T14:09:06 - [TEST_SUITE][PASSED] - DDT_Amazon_Login_Validation_TestSuite: Test Cases/Data Driven Testing/TC_Amazon_Validation_Login_Excel]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

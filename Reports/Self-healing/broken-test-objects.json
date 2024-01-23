@@ -9,6 +9,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon_OR/Page_Amazon Sign-In/input_email_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_OR/Page_Amazon.com  pens/img_s-image",
+      "brokenLocator": "//div[@id\u003d\u0027search\u0027]/div/div/div/span/div/div[2]/div/div/div/div/span/div/div/div/span/a/div/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a/div/img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon_OR/Page_Amazon.com  pens/img_s-image_position.png"
     }
   ]
 }

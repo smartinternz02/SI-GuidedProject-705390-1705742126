@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestSuite,Chrome 120.0.0.0,,,23-01-2024 14:03:54,23-01-2024 14:08:51,4m - 56.538s,FAILED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_AddToCart_004,Chrome 120.0.0.0,,,23-01-2024 14:03:56,23-01-2024 14:05:45,1m - 48.054s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,23-01-2024 14:03:58,23-01-2024 14:04:05,7.170s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,23-01-2024 14:04:05,23-01-2024 14:04:06,0.578s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""pens"")",Chrome 120.0.0.0,,,23-01-2024 14:04:06,23-01-2024 14:04:19,13.707s,PASSED
+"click(findTestObject(""Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,23-01-2024 14:04:19,23-01-2024 14:04:25,5.547s,PASSED
+"click(findTestObject(""Object Repository/Amazon_OR/Page_Amazon.com  pens/img_s-image""))",Chrome 120.0.0.0,,,23-01-2024 14:04:25,23-01-2024 14:04:47,22.542s,PASSED
+"click(findTestObject(""Object Repository/Amazon_OR/Page_Amazon.com SHARPIE S-Gel, Gel Pens, Me_5bc997/span_Quantity1""))",Chrome 120.0.0.0,,,23-01-2024 14:04:47,23-01-2024 14:05:00,12.511s,PASSED
+"click(findTestObject(""Object Repository/Amazon_OR/Page_Amazon.com SHARPIE S-Gel, Gel Pens, Me_5bc997/a_4""))",Chrome 120.0.0.0,,,23-01-2024 14:05:00,23-01-2024 14:05:03,2.676s,PASSED
+"click(findTestObject(""Object Repository/Amazon_OR/Page_Amazon.com SHARPIE S-Gel, Gel Pens, Me_5bc997/input_submit.add-to-cart""))",Chrome 120.0.0.0,,,23-01-2024 14:05:03,23-01-2024 14:05:08,5.206s,PASSED
+"click(findTestObject(""Object Repository/Amazon_OR/Page_Amazon.com Shopping Cart/span_Cart""))",Chrome 120.0.0.0,,,23-01-2024 14:05:08,23-01-2024 14:05:41,32.774s,PASSED
+delay(2),Chrome 120.0.0.0,,,23-01-2024 14:05:41,23-01-2024 14:05:43,2.700s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,23-01-2024 14:05:43,23-01-2024 14:05:44,1.245s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Category_003,Chrome 120.0.0.0,,,23-01-2024 14:05:45,23-01-2024 14:07:37,1m - 52.664s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,23-01-2024 14:05:45,23-01-2024 14:05:48,3.197s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,23-01-2024 14:05:48,23-01-2024 14:05:50,1.790s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""Books"", true)",Chrome 120.0.0.0,,,23-01-2024 14:05:50,23-01-2024 14:06:25,35.439s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""encyclopedia"")",Chrome 120.0.0.0,,,23-01-2024 14:06:25,23-01-2024 14:07:00,35.044s,FAILED
+"click(findTestObject(""Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,23-01-2024 14:07:00,23-01-2024 14:07:36,35.990s,FAILED
+closeBrowser(),Chrome 120.0.0.0,,,23-01-2024 14:07:36,23-01-2024 14:07:37,0.757s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_CreateAccount_002,Chrome 120.0.0.0,,,23-01-2024 14:07:37,23-01-2024 14:08:19,41.947s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,23-01-2024 14:07:38,23-01-2024 14:07:40,2.595s,PASSED
+"navigateToUrl(""www.amazon.com"")",Chrome 120.0.0.0,,,23-01-2024 14:07:40,23-01-2024 14:07:44,3.379s,PASSED
+"click(findTestObject(""Amazon_OR/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists""))",Chrome 120.0.0.0,,,23-01-2024 14:07:44,23-01-2024 14:08:02,18.482s,PASSED
+"click(findTestObject(""Amazon_OR/Page_Amazon Sign-In/span_Create your Amazon account""))",Chrome 120.0.0.0,,,23-01-2024 14:08:02,23-01-2024 14:08:06,3.648s,PASSED
+"setText(findTestObject(""Amazon_OR/Page_Amazon Registration/input_Your name_customerName""), ""harsh"")",Chrome 120.0.0.0,,,23-01-2024 14:08:06,23-01-2024 14:08:07,1.480s,PASSED
+"setText(findTestObject(""Amazon_OR/Page_Amazon Registration/input_US 1_email""), ""1234jumbo@gmail.com"")",Chrome 120.0.0.0,,,23-01-2024 14:08:07,23-01-2024 14:08:08,1.184s,PASSED
+"setText(findTestObject(""Amazon_OR/Page_Amazon Registration/input_Password_password""), ""123123"")",Chrome 120.0.0.0,,,23-01-2024 14:08:08,23-01-2024 14:08:09,0.892s,PASSED
+"setText(findTestObject(""Amazon_OR/Page_Amazon Registration/input_Re-enter password_passwordCheck""), ""123123"")",Chrome 120.0.0.0,,,23-01-2024 14:08:09,23-01-2024 14:08:10,0.986s,PASSED
+"click(findTestObject(""Amazon_OR/Page_Amazon Registration/input_Passwords must match_continue""))",Chrome 120.0.0.0,,,23-01-2024 14:08:10,23-01-2024 14:08:12,1.650s,PASSED
+delay(5),Chrome 120.0.0.0,,,23-01-2024 14:08:12,23-01-2024 14:08:17,5.037s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,23-01-2024 14:08:17,23-01-2024 14:08:19,2.265s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Login_001,Chrome 120.0.0.0,,,23-01-2024 14:08:19,23-01-2024 14:08:51,31.568s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,23-01-2024 14:08:20,23-01-2024 14:08:22,2.660s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,23-01-2024 14:08:22,23-01-2024 14:08:23,1.098s,PASSED
+"click(findTestObject(""Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists""))",Chrome 120.0.0.0,,,23-01-2024 14:08:23,23-01-2024 14:08:36,12.836s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_OR/Page_Amazon Sign-In/input_email""), ""jaiswalpratham2002@gmail.com"")",Chrome 120.0.0.0,,,23-01-2024 14:08:36,23-01-2024 14:08:38,1.833s,PASSED
+"click(findTestObject(""Object Repository/Amazon_OR/Page_Amazon Sign-In/inputcontinue""))",Chrome 120.0.0.0,,,23-01-2024 14:08:38,23-01-2024 14:08:42,4.334s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_OR/Page_Amazon Sign-In/input_password""), ""CRqjWPeblyV95o9fznV5pg=="")",Chrome 120.0.0.0,,,23-01-2024 14:08:42,23-01-2024 14:08:44,1.808s,PASSED
+"click(findTestObject(""Object Repository/Amazon_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 120.0.0.0,,,23-01-2024 14:08:44,23-01-2024 14:08:45,0.648s,PASSED
+delay(5),Chrome 120.0.0.0,,,23-01-2024 14:08:45,23-01-2024 14:08:50,5.058s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,23-01-2024 14:08:50,23-01-2024 14:08:51,0.836s,PASSED

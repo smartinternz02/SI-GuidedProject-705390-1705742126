@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DDT_Amazon_Login_Validation_TestSuite,Chrome 120.0.0.0,,,23-01-2024 14:09:06,23-01-2024 14:10:34,1m - 28.391s,PASSED
+,,,,,,,
+Test Cases/Data Driven Testing/TC_Amazon_Validation_Login_Excel,Chrome 120.0.0.0,,,23-01-2024 14:09:06,23-01-2024 14:10:02,55.747s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,23-01-2024 14:09:07,23-01-2024 14:09:16,9.122s,PASSED
+"navigateToUrl(""www.amazon.com"")",Chrome 120.0.0.0,,,23-01-2024 14:09:16,23-01-2024 14:09:19,2.900s,PASSED
+"click(findTestObject(""Amazon_OR/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists""))",Chrome 120.0.0.0,,,23-01-2024 14:09:19,23-01-2024 14:09:53,33.697s,PASSED
+"setText(findTestObject(""Amazon_OR/Page_Amazon Sign-In/input_email""), Email)",Chrome 120.0.0.0,,,23-01-2024 14:09:53,23-01-2024 14:09:56,3.348s,PASSED
+"click(findTestObject(""Amazon_OR/Page_Amazon Sign-In/inputcontinue""))",Chrome 120.0.0.0,,,23-01-2024 14:09:56,23-01-2024 14:09:59,2.930s,PASSED
+"setText(findTestObject(""Amazon_OR/Page_Amazon Sign-In/input_password""), Password)",Chrome 120.0.0.0,,,23-01-2024 14:09:59,23-01-2024 14:10:00,1.479s,PASSED
+"click(findTestObject(""Amazon_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 120.0.0.0,,,23-01-2024 14:10:00,23-01-2024 14:10:01,0.751s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,23-01-2024 14:10:01,23-01-2024 14:10:02,0.840s,PASSED
+,,,,,,,
+Test Cases/Data Driven Testing/TC_Amazon_Validation_Login_Excel,Chrome 120.0.0.0,,,23-01-2024 14:10:02,23-01-2024 14:10:34,32.016s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,23-01-2024 14:10:02,23-01-2024 14:10:05,2.777s,PASSED
+"navigateToUrl(""www.amazon.com"")",Chrome 120.0.0.0,,,23-01-2024 14:10:05,23-01-2024 14:10:06,1.151s,PASSED
+"click(findTestObject(""Amazon_OR/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists""))",Chrome 120.0.0.0,,,23-01-2024 14:10:06,23-01-2024 14:10:26,19.599s,PASSED
+"setText(findTestObject(""Amazon_OR/Page_Amazon Sign-In/input_email""), Email)",Chrome 120.0.0.0,,,23-01-2024 14:10:26,23-01-2024 14:10:27,1.487s,PASSED
+"click(findTestObject(""Amazon_OR/Page_Amazon Sign-In/inputcontinue""))",Chrome 120.0.0.0,,,23-01-2024 14:10:27,23-01-2024 14:10:32,4.274s,PASSED
+"setText(findTestObject(""Amazon_OR/Page_Amazon Sign-In/input_password""), Password)",Chrome 120.0.0.0,,,23-01-2024 14:10:32,23-01-2024 14:10:33,1.169s,PASSED
+"click(findTestObject(""Amazon_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 120.0.0.0,,,23-01-2024 14:10:33,23-01-2024 14:10:33,0.646s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,23-01-2024 14:10:33,23-01-2024 14:10:34,0.784s,PASSED
