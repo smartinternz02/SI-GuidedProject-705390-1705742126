@@ -19,6 +19,96 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon_OR/Page_Amazon.com  pens/img_s-image_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/f/Page_The Da Vinci Code (Robert Langdon) Bro_e0923b/span_Quantity1",
+      "brokenLocator": "//span[@id\u003d\u0027a-autoid-2-announce\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/span/span/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/f/Page_The Da Vinci Code (Robert Langdon) Bro_e0923b/span_Quantity1_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/f/Page_Amazon.com  da vinci code/img_s-image",
+      "brokenLocator": "//div[@id\u003d\u0027search\u0027]/div/div/div/span/div/div[2]/div/div/span/div/div/div/div/div/div[2]/div/span/a/div/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a/div/img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/f/Page_Amazon.com  da vinci code/img_s-image_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/f/Page_The Da Vinci Code (Abridged Edition) P_54f610/select_1        2        3",
+      "brokenLocator": "//select[@id\u003d\u0027quantity\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/select",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/f/Page_The Da Vinci Code (Abridged Edition) P_54f610/select_1        2        3_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/key/Page_Amazon Registration/input_Your name_customerName",
+      "brokenLocator": "//input[@id\u003d\u0027ap_customer_name\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/key/Page_Amazon Registration/input_US 1_email",
+      "brokenLocator": "//input[@id\u003d\u0027ap_email\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/key/Page_Amazon Registration/input_US 1_email_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists",
+      "brokenLocator": "//a[@id\u003d\u0027nav-link-accountList\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[@id\u003d\u0027nav-link-accountList\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/c/Page_Hauser XO 0.6mm Ball Pen Box Pack  Sle_fce886/select_1        2        3        4        _45ea30",
+      "brokenLocator": "//select[@id\u003d\u0027quantity\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/select",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/c/Page_Hauser XO 0.6mm Ball Pen Box Pack  Sle_fce886/select_1        2        3        4        _45ea30_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/c/Page_Hauser XO 0.6mm Ball Pen Box Pack  Sle_fce886/input_submit.add-to-cart",
+      "brokenLocator": "//input[@id\u003d\u0027add-to-cart-button\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/c/Page_Hauser XO 0.6mm Ball Pen Box Pack  Sle_fce886/input_submit.add-to-cart_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_OR/Page_Pentonic Frost 0.7 mm Ball Point Pen T_d91566/select_1        2        3        4        _45ea30",
+      "brokenLocator": "//select[@id\u003d\u0027quantity\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/select",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon_OR/Page_Pentonic Frost 0.7 mm Ball Point Pen T_d91566/select_1        2        3        4        _45ea30_position.png"
     }
   ]
 }

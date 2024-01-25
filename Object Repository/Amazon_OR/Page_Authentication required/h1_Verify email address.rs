@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Verify email address</name>
+   <tag></tag>
+   <elementGuidId>77d939ef-0043-4e03-8318-4338665a6068</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='verification-code-form']/div/div/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>0c6002b0-3b58-4a28-b5fa-ba4349efe7fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Verify email address</value>
+      <webElementGuid>8f7e546b-e8e4-4cd4-8e7d-8657f7453ab8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;verification-code-form&quot;)/div[@class=&quot;a-row a-spacing-small&quot;]/div[@class=&quot;a-row a-spacing-small&quot;]/h1[1]</value>
+      <webElementGuid>34e0cff2-8b4d-42a2-970f-604b9914ac67</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='verification-code-form']/div/div/h1</value>
+      <webElementGuid>f44b7b5e-8e4f-4776-8e61-eccf64f29024</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>425e813d-f17e-43e4-955d-c036c9f269f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Verify email address' or . = 'Verify email address')]</value>
+      <webElementGuid>ea373f5a-4bb6-4813-834e-81a7032e96ee</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

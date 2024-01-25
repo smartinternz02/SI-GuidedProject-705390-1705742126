@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Amazon_CreateAccount_GlobalVariable_002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cc62c24a-6b54-466c-a24e-84d00f147b09</testCaseGuid>
+</TestCaseEntity>
