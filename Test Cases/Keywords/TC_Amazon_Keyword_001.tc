@@ -5,4 +5,56 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>595832c3-3bda-4848-8a0f-e2725c8980f3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f7e406ec-3837-4b12-b15a-db88ceca6ac6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>34b42031-2ee1-431e-aff8-ad3ef0dd09d5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9eb561b0-1c8e-4ce1-9ad3-dce280c8fec8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>251ce9fa-2164-4d6e-b60c-11f1c6aaf34e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Pratham'</defaultValue>
+      <description></description>
+      <id>f7e406ec-3837-4b12-b15a-db88ceca6ac6</id>
+      <masked>false</masked>
+      <name>user_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'1234jumbo@gmail.com'</defaultValue>
+      <description></description>
+      <id>34b42031-2ee1-431e-aff8-ad3ef0dd09d5</id>
+      <masked>false</masked>
+      <name>user_email</name>
+   </variable>
+   <variable>
+      <defaultValue>'123123'</defaultValue>
+      <description></description>
+      <id>9eb561b0-1c8e-4ce1-9ad3-dce280c8fec8</id>
+      <masked>false</masked>
+      <name>user_password</name>
+   </variable>
+   <variable>
+      <defaultValue>'123123'</defaultValue>
+      <description></description>
+      <id>251ce9fa-2164-4d6e-b60c-11f1c6aaf34e</id>
+      <masked>false</masked>
+      <name>user_re_enter_password</name>
+   </variable>
 </TestCaseEntity>

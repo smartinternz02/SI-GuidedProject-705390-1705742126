@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('www.amazon.com')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.selectOptionByLabel(findTestObject('Amazon_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'), 
     findTestData('DDT_Amazon/Amazon_TestData_Category_InternalData').getValue('Category', 2), false)

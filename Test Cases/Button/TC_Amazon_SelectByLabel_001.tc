@@ -5,4 +5,30 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>a9505ca5-dc98-4a7e-81bf-505f7bed32ef</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>26c88dde-68a8-4a01-a482-84a896f10254</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>44072bcc-6a4c-44de-af46-bb28d0fd52d0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Books'</defaultValue>
+      <description></description>
+      <id>26c88dde-68a8-4a01-a482-84a896f10254</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+   <variable>
+      <defaultValue>'da vinci code'</defaultValue>
+      <description></description>
+      <id>44072bcc-6a4c-44de-af46-bb28d0fd52d0</id>
+      <masked>false</masked>
+      <name>item</name>
+   </variable>
 </TestCaseEntity>

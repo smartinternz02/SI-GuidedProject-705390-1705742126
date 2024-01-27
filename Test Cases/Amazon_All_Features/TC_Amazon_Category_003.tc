@@ -5,4 +5,30 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>486c4257-e4d6-45ad-831c-cb6fb1a59184</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c08b5b36-8999-40a6-b444-b8ffbb9fb036</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d297445a-98c0-49ef-8e80-746b97e570b2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Books'</defaultValue>
+      <description></description>
+      <id>c08b5b36-8999-40a6-b444-b8ffbb9fb036</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+   <variable>
+      <defaultValue>'encyclopedia'</defaultValue>
+      <description></description>
+      <id>d297445a-98c0-49ef-8e80-746b97e570b2</id>
+      <masked>false</masked>
+      <name>item</name>
+   </variable>
 </TestCaseEntity>

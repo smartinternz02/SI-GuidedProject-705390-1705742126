@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Amazon_Button_TestSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>f64ef5ca-af99-48c7-a4fc-fcc46d9c5c25</testSuiteGuid>
+   <testCaseLink>
+      <guid>2c3aef39-93ae-4818-b8e9-3cce365675cd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Button/TC_Amazon_SelectByLabel_001</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>26c88dde-68a8-4a01-a482-84a896f10254</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>44072bcc-6a4c-44de-af46-bb28d0fd52d0</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fab7836a-b4d6-4a79-b3d1-24147f3ea68c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Button/TC_Amazon_SelecyByValue_002</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>acc9462a-433c-4b4e-bd55-57372982cd21</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>40fd23fb-22ce-4132-9786-a09a8f6e383c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6b45c7df-7011-403d-8d88-8a7c78106516</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

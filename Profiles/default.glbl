@@ -4,4 +4,14 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'www.amazon.com'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'jaiswalpratham2002@gmail.com'</initValue>
+      <name>EMAILID</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

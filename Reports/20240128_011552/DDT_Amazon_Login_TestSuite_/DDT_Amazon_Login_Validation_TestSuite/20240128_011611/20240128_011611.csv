@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DDT_Amazon_Login_Validation_TestSuite,Edge Chromium 121,,,28-01-2024 01:20:04,28-01-2024 01:21:13,1m - 8.268s,PASSED
+,,,,,,,
+Test Cases/Data Driven Testing/TC_Amazon_Validation_Login_Excel,Edge Chromium 121,,,28-01-2024 01:20:05,28-01-2024 01:20:51,45.222s,PASSED
+Start listener action : sampleBeforeTestCase,Edge Chromium 121,,,28-01-2024 01:20:06,28-01-2024 01:20:08,2.606s,FAILED
+"openBrowser("""")",Edge Chromium 121,,,28-01-2024 01:20:09,28-01-2024 01:20:21,11.692s,PASSED
+navigateToUrl(URL),Edge Chromium 121,,,28-01-2024 01:20:21,28-01-2024 01:20:25,4.518s,PASSED
+"click(findTestObject(""Amazon_OR/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists""))",Edge Chromium 121,,,28-01-2024 01:20:25,28-01-2024 01:20:37,11.940s,PASSED
+"setText(findTestObject(""Amazon_OR/Page_Amazon Sign-In/input_email""), Email)",Edge Chromium 121,,,28-01-2024 01:20:37,28-01-2024 01:20:43,5.675s,PASSED
+"click(findTestObject(""Amazon_OR/Page_Amazon Sign-In/inputcontinue""))",Edge Chromium 121,,,28-01-2024 01:20:43,28-01-2024 01:20:46,3.089s,PASSED
+"setText(findTestObject(""Amazon_OR/Page_Amazon Sign-In/input_password""), Password)",Edge Chromium 121,,,28-01-2024 01:20:46,28-01-2024 01:20:48,1.703s,PASSED
+"click(findTestObject(""Amazon_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Edge Chromium 121,,,28-01-2024 01:20:48,28-01-2024 01:20:48,0.720s,PASSED
+closeBrowser(),Edge Chromium 121,,,28-01-2024 01:20:48,28-01-2024 01:20:50,1.898s,PASSED
+Start listener action : sampleAfterTestCase,Edge Chromium 121,,,28-01-2024 01:20:50,28-01-2024 01:20:51,0.381s,FAILED
+,,,,,,,
+Test Cases/Data Driven Testing/TC_Amazon_Validation_Login_Excel,Edge Chromium 121,,,28-01-2024 01:20:51,28-01-2024 01:21:13,22.112s,PASSED
+Start listener action : sampleBeforeTestCase,Edge Chromium 121,,,28-01-2024 01:20:51,28-01-2024 01:20:51,0.678s,FAILED
+"openBrowser("""")",Edge Chromium 121,,,28-01-2024 01:20:51,28-01-2024 01:20:54,2.111s,PASSED
+navigateToUrl(URL),Edge Chromium 121,,,28-01-2024 01:20:54,28-01-2024 01:21:00,6.088s,PASSED
+"click(findTestObject(""Amazon_OR/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists""))",Edge Chromium 121,,,28-01-2024 01:21:00,28-01-2024 01:21:03,3.024s,PASSED
+"setText(findTestObject(""Amazon_OR/Page_Amazon Sign-In/input_email""), Email)",Edge Chromium 121,,,28-01-2024 01:21:03,28-01-2024 01:21:07,4.076s,PASSED
+"click(findTestObject(""Amazon_OR/Page_Amazon Sign-In/inputcontinue""))",Edge Chromium 121,,,28-01-2024 01:21:07,28-01-2024 01:21:09,2.395s,PASSED
+"setText(findTestObject(""Amazon_OR/Page_Amazon Sign-In/input_password""), Password)",Edge Chromium 121,,,28-01-2024 01:21:09,28-01-2024 01:21:10,1.370s,PASSED
+"click(findTestObject(""Amazon_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Edge Chromium 121,,,28-01-2024 01:21:10,28-01-2024 01:21:11,0.568s,PASSED
+closeBrowser(),Edge Chromium 121,,,28-01-2024 01:21:11,28-01-2024 01:21:13,1.455s,PASSED
+Start listener action : sampleAfterTestCase,Edge Chromium 121,,,28-01-2024 01:21:13,28-01-2024 01:21:13,0.236s,FAILED

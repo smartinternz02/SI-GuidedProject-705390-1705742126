@@ -1,0 +1,55 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestSuite,Chrome 120.0.0.0,,,28-01-2024 01:16:38,28-01-2024 01:19:46,3m - 7.690s,PASSED
+,,,,,,,
+Test Cases/Amazon_All_Features/TC_Amazon_AddToCart_004,Chrome 120.0.0.0,,,28-01-2024 01:16:39,28-01-2024 01:18:17,1m - 37.218s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,28-01-2024 01:16:40,28-01-2024 01:16:44,4.652s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,28-01-2024 01:16:45,28-01-2024 01:16:56,10.594s,PASSED
+navigateToUrl(URL),Chrome 120.0.0.0,,,28-01-2024 01:16:56,28-01-2024 01:17:04,8.618s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), item)",Chrome 120.0.0.0,,,28-01-2024 01:17:04,28-01-2024 01:17:10,5.668s,PASSED
+"click(findTestObject(""Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,28-01-2024 01:17:10,28-01-2024 01:17:21,10.852s,PASSED
+"click(findTestObject(""Object Repository/Amazon_OR/Page_Amazon.com  pens/img_s-image""))",Chrome 120.0.0.0,,,28-01-2024 01:17:21,28-01-2024 01:17:50,29.245s,PASSED
+"click(findTestObject(""Object Repository/Amazon_OR/Page_Amazon.com SHARPIE S-Gel, Gel Pens, Me_5bc997/span_Quantity1""))",Chrome 120.0.0.0,,,28-01-2024 01:17:50,28-01-2024 01:18:01,10.419s,PASSED
+"click(findTestObject(""Object Repository/Amazon_OR/Page_Amazon.com SHARPIE S-Gel, Gel Pens, Me_5bc997/a_4""))",Chrome 120.0.0.0,,,28-01-2024 01:18:01,28-01-2024 01:18:01,0.786s,PASSED
+"click(findTestObject(""Object Repository/Amazon_OR/Page_Amazon.com SHARPIE S-Gel, Gel Pens, Me_5bc997/input_submit.add-to-cart""))",Chrome 120.0.0.0,,,28-01-2024 01:18:01,28-01-2024 01:18:05,3.977s,PASSED
+"click(findTestObject(""Object Repository/Amazon_OR/Page_Amazon.com Shopping Cart/span_Cart""))",Chrome 120.0.0.0,,,28-01-2024 01:18:05,28-01-2024 01:18:08,2.973s,PASSED
+delay(5),Chrome 120.0.0.0,,,28-01-2024 01:18:08,28-01-2024 01:18:14,5.864s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,28-01-2024 01:18:14,28-01-2024 01:18:16,2.043s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,28-01-2024 01:18:16,28-01-2024 01:18:17,0.478s,FAILED
+,,,,,,,
+Test Cases/Amazon_All_Features/TC_Amazon_Category_003,Chrome 120.0.0.0,,,28-01-2024 01:18:17,28-01-2024 01:18:49,31.969s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,28-01-2024 01:18:17,28-01-2024 01:18:18,0.906s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,28-01-2024 01:18:18,28-01-2024 01:18:22,3.419s,PASSED
+navigateToUrl(URL),Chrome 120.0.0.0,,,28-01-2024 01:18:22,28-01-2024 01:18:24,1.861s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), category, true)",Chrome 120.0.0.0,,,28-01-2024 01:18:24,28-01-2024 01:18:35,11.991s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), item)",Chrome 120.0.0.0,,,28-01-2024 01:18:35,28-01-2024 01:18:38,2.061s,PASSED
+"click(findTestObject(""Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,28-01-2024 01:18:38,28-01-2024 01:18:47,9.778s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,28-01-2024 01:18:47,28-01-2024 01:18:48,1.003s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,28-01-2024 01:18:48,28-01-2024 01:18:49,0.305s,FAILED
+,,,,,,,
+Test Cases/Amazon_All_Features/TC_Amazon_CreateAccount_002,Chrome 120.0.0.0,,,28-01-2024 01:18:49,28-01-2024 01:19:15,26.182s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,28-01-2024 01:18:49,28-01-2024 01:18:50,1.134s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,28-01-2024 01:18:51,28-01-2024 01:18:53,1.947s,PASSED
+navigateToUrl(URL),Chrome 120.0.0.0,,,28-01-2024 01:18:53,28-01-2024 01:18:57,4.139s,PASSED
+"click(findTestObject(""Amazon_OR/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists""))",Chrome 120.0.0.0,,,28-01-2024 01:18:57,28-01-2024 01:19:00,2.970s,PASSED
+"click(findTestObject(""Amazon_OR/Page_Amazon Sign-In/span_Create your Amazon account""))",Chrome 120.0.0.0,,,28-01-2024 01:19:00,28-01-2024 01:19:02,2.075s,PASSED
+"setText(findTestObject(""Amazon_OR/Page_Amazon Registration/input_Your name_customerName""), user_name)",Chrome 120.0.0.0,,,28-01-2024 01:19:02,28-01-2024 01:19:03,1.389s,PASSED
+"setText(findTestObject(""Amazon_OR/Page_Amazon Registration/input_US 1_email""), user_email)",Chrome 120.0.0.0,,,28-01-2024 01:19:03,28-01-2024 01:19:04,0.917s,PASSED
+"setText(findTestObject(""Amazon_OR/Page_Amazon Registration/input_Password_password""), user_password)",Chrome 120.0.0.0,,,28-01-2024 01:19:04,28-01-2024 01:19:06,1.759s,PASSED
+"setText(findTestObject(""Amazon_OR/Page_Amazon Registration/input_Re-enter password_passwordCheck""), user_re_enter_passowrd)",Chrome 120.0.0.0,,,28-01-2024 01:19:06,28-01-2024 01:19:07,1.020s,PASSED
+"click(findTestObject(""Amazon_OR/Page_Amazon Registration/input_Passwords must match_continue""))",Chrome 120.0.0.0,,,28-01-2024 01:19:07,28-01-2024 01:19:09,1.759s,PASSED
+delay(5),Chrome 120.0.0.0,,,28-01-2024 01:19:09,28-01-2024 01:19:14,5.018s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,28-01-2024 01:19:14,28-01-2024 01:19:14,0.493s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,28-01-2024 01:19:14,28-01-2024 01:19:15,0.720s,FAILED
+,,,,,,,
+Test Cases/Amazon_All_Features/TC_Amazon_Login_001,Chrome 120.0.0.0,,,28-01-2024 01:19:15,28-01-2024 01:19:46,31.116s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,28-01-2024 01:19:15,28-01-2024 01:19:16,0.965s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,28-01-2024 01:19:17,28-01-2024 01:19:21,4.620s,PASSED
+navigateToUrl(URL),Chrome 120.0.0.0,,,28-01-2024 01:19:21,28-01-2024 01:19:28,6.440s,PASSED
+"click(findTestObject(""Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists""))",Chrome 120.0.0.0,,,28-01-2024 01:19:28,28-01-2024 01:19:32,3.756s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_OR/Page_Amazon Sign-In/input_email""), EMAILID)",Chrome 120.0.0.0,,,28-01-2024 01:19:32,28-01-2024 01:19:33,1.581s,PASSED
+"click(findTestObject(""Object Repository/Amazon_OR/Page_Amazon Sign-In/inputcontinue""))",Chrome 120.0.0.0,,,28-01-2024 01:19:33,28-01-2024 01:19:37,3.708s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_OR/Page_Amazon Sign-In/input_password""), ""CRqjWPeblyV95o9fznV5pg=="")",Chrome 120.0.0.0,,,28-01-2024 01:19:37,28-01-2024 01:19:39,1.651s,PASSED
+"click(findTestObject(""Object Repository/Amazon_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 120.0.0.0,,,28-01-2024 01:19:39,28-01-2024 01:19:39,0.585s,PASSED
+delay(5),Chrome 120.0.0.0,,,28-01-2024 01:19:39,28-01-2024 01:19:44,5.327s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,28-01-2024 01:19:44,28-01-2024 01:19:46,1.131s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,28-01-2024 01:19:46,28-01-2024 01:19:46,0.361s,FAILED

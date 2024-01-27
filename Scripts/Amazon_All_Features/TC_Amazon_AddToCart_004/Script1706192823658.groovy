@@ -19,10 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.amazon.com/')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.setText(findTestObject('Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'), 
-    'pens')
+    item)
 
 WebUI.click(findTestObject('Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button'))
 
@@ -36,7 +36,7 @@ WebUI.click(findTestObject('Object Repository/Amazon_OR/Page_Amazon.com SHARPIE 
 
 WebUI.click(findTestObject('Object Repository/Amazon_OR/Page_Amazon.com Shopping Cart/span_Cart'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.closeBrowser()
 

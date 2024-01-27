@@ -21,10 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(url)
 
-WebUI.setText(findTestObject('Object Repository/Amazon_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords'), 
-    item)
+WebUI.setText(findTestObject('Amazon_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'), item)
 
-WebUI.click(findTestObject('Object Repository/Amazon_OR/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button'))
+WebUI.click(findTestObject('Amazon_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button'))
 
 WebUI.click(findTestObject('Object Repository/Amazon_OR/Page_Amazon.in  pens/img_s-image'))
 

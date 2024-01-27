@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Sign Out</name>
+   <tag></tag>
+   <elementGuidId>ae863638-9936-48b4-b307-57c993bd85b9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='nav-item-signout']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#nav-item-signout > span.nav-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8b90d22a-7c45-4530-8900-a2abc6846206</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-text</value>
+      <webElementGuid>ba4011b1-9f1b-40a0-ab62-a12d3d2e7583</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sign Out</value>
+      <webElementGuid>febccdc3-0a9b-4108-afc4-46557f591787</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;nav-item-signout&quot;)/span[@class=&quot;nav-text&quot;]</value>
+      <webElementGuid>89f38bac-1179-46b2-aaac-d3574cb5cab2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='nav-item-signout']/span</value>
+      <webElementGuid>393f54f5-10b6-44f9-9b16-1d2ed8d486e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[13]/span</value>
+      <webElementGuid>2d41ae17-a5ed-4b05-816c-ffd9978f0ef9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Sign Out' or . = 'Sign Out')]</value>
+      <webElementGuid>f8a9ae09-c213-45f5-a067-29cb85933901</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

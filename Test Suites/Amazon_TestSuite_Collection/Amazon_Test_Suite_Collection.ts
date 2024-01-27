@@ -22,7 +22,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Edge Chromium</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/DDT_Amazon_Login_TestSuite_/DDT_Amazon_Login_Validation_TestSuite</testSuiteEntity>

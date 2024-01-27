@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.amazon.com/')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.click(findTestObject('Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists'))
 
-WebUI.setText(findTestObject('Object Repository/Amazon_OR/Page_Amazon Sign-In/input_email'), 'jaiswalpratham2002@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Amazon_OR/Page_Amazon Sign-In/input_email'), GlobalVariable.EMAILID)
 
 WebUI.click(findTestObject('Object Repository/Amazon_OR/Page_Amazon Sign-In/inputcontinue'))
 

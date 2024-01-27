@@ -19,19 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('www.amazon.com')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.click(findTestObject('Amazon_OR/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists'))
 
 WebUI.click(findTestObject('Amazon_OR/Page_Amazon Sign-In/span_Create your Amazon account'))
 
-WebUI.setText(findTestObject('Amazon_OR/Page_Amazon Registration/input_Your name_customerName'), 'harsh')
+WebUI.setText(findTestObject('Amazon_OR/Page_Amazon Registration/input_Your name_customerName'), user_name)
 
-WebUI.setText(findTestObject('Amazon_OR/Page_Amazon Registration/input_US 1_email'), '1234jumbo@gmail.com')
+WebUI.setText(findTestObject('Amazon_OR/Page_Amazon Registration/input_US 1_email'), user_email)
 
-WebUI.setText(findTestObject('Amazon_OR/Page_Amazon Registration/input_Password_password'), '123123')
+WebUI.setText(findTestObject('Amazon_OR/Page_Amazon Registration/input_Password_password'), user_password)
 
-WebUI.setText(findTestObject('Amazon_OR/Page_Amazon Registration/input_Re-enter password_passwordCheck'), '123123')
+WebUI.setText(findTestObject('Amazon_OR/Page_Amazon Registration/input_Re-enter password_passwordCheck'), user_re_enter_passowrd)
 
 WebUI.click(findTestObject('Amazon_OR/Page_Amazon Registration/input_Passwords must match_continue'))
 

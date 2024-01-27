@@ -109,6 +109,26 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon_OR/Page_Pentonic Frost 0.7 mm Ball Point Pen T_d91566/select_1        2        3        4        _45ea30_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/f/Page_Amazon.com Shopping Cart/adropdown1_2",
+      "brokenLocator": "//a[@id\u003d\u0027dropdown1_2\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//a[contains(@href, \u0027javascript:void(0)\u0027)])[51]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_OR/Page_Amazon Sign-In/input_password",
+      "brokenLocator": "//input[@id\u003d\u0027ap_password\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon_OR/Page_Amazon Sign-In/input_password_position.png"
     }
   ]
 }

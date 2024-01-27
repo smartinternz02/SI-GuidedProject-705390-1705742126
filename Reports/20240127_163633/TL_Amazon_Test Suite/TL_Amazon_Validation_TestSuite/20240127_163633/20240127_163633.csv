@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TL_Amazon_Validation_TestSuite,Chrome 120.0.0.0,,,27-01-2024 16:36:43,27-01-2024 16:37:31,48.245s,PASSED
+,,,,,,,
+Test Cases/Test Listener/TC_Amazon__Category_TestListener_001,Chrome 120.0.0.0,,,27-01-2024 16:36:53,27-01-2024 16:37:31,37.789s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,27-01-2024 16:36:53,27-01-2024 16:37:09,16.166s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""Books"", false)",Chrome 120.0.0.0,,,27-01-2024 16:37:10,27-01-2024 16:37:15,5.557s,PASSED
+"setText(findTestObject(""Amazon_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""da vinci code"")",Chrome 120.0.0.0,,,27-01-2024 16:37:15,27-01-2024 16:37:18,2.493s,PASSED
+"click(findTestObject(""Amazon_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,27-01-2024 16:37:18,27-01-2024 16:37:25,7.327s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,27-01-2024 16:37:25,27-01-2024 16:37:31,5.860s,PASSED

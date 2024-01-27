@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Button_TestSuite,Chrome 120.0.0.0,,,28-01-2024 01:24:32,28-01-2024 01:26:18,1m - 45.615s,PASSED
+,,,,,,,
+Test Cases/Button/TC_Amazon_SelectByLabel_001,Chrome 120.0.0.0,,,28-01-2024 01:24:33,28-01-2024 01:25:08,34.235s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,28-01-2024 01:24:34,28-01-2024 01:24:38,3.914s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,28-01-2024 01:24:38,28-01-2024 01:24:46,8.238s,PASSED
+navigateToUrl(URL),Chrome 120.0.0.0,,,28-01-2024 01:24:46,28-01-2024 01:24:51,4.542s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), category, false)",Chrome 120.0.0.0,,,28-01-2024 01:24:51,28-01-2024 01:24:56,4.924s,PASSED
+"setText(findTestObject(""Amazon_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), item)",Chrome 120.0.0.0,,,28-01-2024 01:24:56,28-01-2024 01:24:59,3.240s,PASSED
+"click(findTestObject(""Amazon_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,28-01-2024 01:24:59,28-01-2024 01:25:06,6.829s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,28-01-2024 01:25:06,28-01-2024 01:25:07,0.876s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,28-01-2024 01:25:07,28-01-2024 01:25:08,0.797s,FAILED
+,,,,,,,
+Test Cases/Button/TC_Amazon_SelecyByValue_002,Chrome 120.0.0.0,,,28-01-2024 01:25:08,28-01-2024 01:26:18,1m - 10.289s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,28-01-2024 01:25:08,28-01-2024 01:25:10,1.486s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,28-01-2024 01:25:10,28-01-2024 01:25:13,2.949s,PASSED
+navigateToUrl(url),Chrome 120.0.0.0,,,28-01-2024 01:25:13,28-01-2024 01:25:20,7.335s,PASSED
+"setText(findTestObject(""Amazon_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), item)",Chrome 120.0.0.0,,,28-01-2024 01:25:20,28-01-2024 01:25:23,2.755s,PASSED
+"click(findTestObject(""Amazon_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,28-01-2024 01:25:23,28-01-2024 01:25:34,10.685s,PASSED
+"click(findTestObject(""Object Repository/Amazon_OR/Page_Amazon.in  pens/img_s-image""))",Chrome 120.0.0.0,,,28-01-2024 01:25:34,28-01-2024 01:25:41,7.108s,PASSED
+"switchToWindowTitle(""Hauser XO 0.6mm Ball Pen Box Pack | Sleek Body & Minimalistic Design | Matt Finish & Solid Body Type | Low Viscosity Ink With Ultra Durable Tip | Blue Ink, Pack of 10 Pens : Amazon.in: Office Products"")",Chrome 120.0.0.0,,,28-01-2024 01:25:41,28-01-2024 01:25:55,14.247s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_OR/Page_Hauser XO 0.6mm Ball Pen Box Pack  Sle_fce886/select_1        2        3        4        _45ea30""), quantity, true)",Chrome 120.0.0.0,,,28-01-2024 01:25:55,28-01-2024 01:26:10,14.884s,PASSED
+delay(5),Chrome 120.0.0.0,,,28-01-2024 01:26:10,28-01-2024 01:26:15,5.260s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,28-01-2024 01:26:15,28-01-2024 01:26:18,2.177s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,28-01-2024 01:26:18,28-01-2024 01:26:18,0.471s,FAILED

@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.amazon.com/')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'), 
-    'Books', true)
+    category, true)
 
 WebUI.setText(findTestObject('Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'), 
-    'encyclopedia')
+    item)
 
 WebUI.click(findTestObject('Object Repository/Amazon_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button'))
 
