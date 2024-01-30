@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_OR/Page_Amazon Sign-In/input_password",
+      "brokenLocator": "//input[@id\u003d\u0027ap_password\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240129_014941/DDT_Amazon_Login_TestSuite_/DDT_Amazon_Login_Validation_TestSuite/20240129_014941/Object Repository/Amazon_OR/Page_Amazon Sign-In/input_password_position.png"
+    }
+  ]
+}

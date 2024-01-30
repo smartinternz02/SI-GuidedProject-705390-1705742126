@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TL_Amazon_Validation_TestSuite,Chrome 120.0.0.0,,,28-01-2024 20:13:52,28-01-2024 20:15:04,1m - 12.136s,PASSED
+,,,,,,,
+Test Cases/Test Listener/TC_Amazon__Category_TestListener_001,Chrome 120.0.0.0,,,28-01-2024 20:14:03,28-01-2024 20:15:04,1m - 0.348s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,28-01-2024 20:14:04,28-01-2024 20:14:25,21.027s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), category, false)",Chrome 120.0.0.0,,,28-01-2024 20:14:26,28-01-2024 20:14:47,21.237s,PASSED
+"setText(findTestObject(""Amazon_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), item)",Chrome 120.0.0.0,,,28-01-2024 20:14:47,28-01-2024 20:14:49,2.603s,PASSED
+"click(findTestObject(""Amazon_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,28-01-2024 20:14:49,28-01-2024 20:14:57,7.563s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,28-01-2024 20:14:57,28-01-2024 20:15:04,6.769s,PASSED

@@ -37,7 +37,7 @@ WebUI.click(findTestObject('Amazon_OR/Page_Amazon Registration/input_Passwords m
 
 WebUI.verifyElementPresent(findTestObject('Amazon_OR/Page_Authentication required/h1_Verify email address'), 30)
 
-CustomKeywords.'keyowrd.newkeyword.print'('registration sucessful')
+CustomKeywords.'keyowrd.newkeyword.registration'('registration sucessful')
 
 WebUI.closeBrowser()
 

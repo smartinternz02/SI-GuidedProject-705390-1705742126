@@ -12,13 +12,13 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>ba1497e3-390f-4c55-9687-382a18c26d93</testSuiteGuid>
    <testCaseLink>
-      <guid>9025af4d-cf48-434f-9c22-182b08decd8f</guid>
+      <guid>bc894a67-6306-42a8-b8a4-478cd5795f68</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Data Driven Testing/TC_Amazon_Validation_Login_Excel</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>16d8fbbf-4e4f-4b44-803d-6cde76e50839</id>
+         <id>4ddaf377-14bc-4387-8deb-261ca54b4cea</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -27,13 +27,13 @@
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>16d8fbbf-4e4f-4b44-803d-6cde76e50839</testDataLinkId>
+         <testDataLinkId>4ddaf377-14bc-4387-8deb-261ca54b4cea</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Email</value>
          <variableId>98df46a6-9d5f-46f3-8ad3-f36ac05922af</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>16d8fbbf-4e4f-4b44-803d-6cde76e50839</testDataLinkId>
+         <testDataLinkId>4ddaf377-14bc-4387-8deb-261ca54b4cea</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Password</value>
          <variableId>19990a6e-8a67-4448-9811-e10cb63586da</variableId>

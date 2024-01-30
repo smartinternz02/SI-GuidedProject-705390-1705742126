@@ -6,7 +6,7 @@
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>e76d42c0-748e-4983-a9db-f253699d0ed5</dataFileGUID>
+   <dataFileGUID>34ebfbc4-af3c-4ade-9972-460c4e958cd8</dataFileGUID>
    <dataSourceUrl>C:\Users\abc\Desktop\Software Testing Intern\ST_Project\Login Detail.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
